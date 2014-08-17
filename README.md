@@ -5,7 +5,7 @@ Python class that converts a dictionary to an ASCII table
 
 Sample Usage:
 
-```
+```python
 tbl = [
     {
         'fname': 'Bill',
