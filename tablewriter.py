@@ -59,6 +59,7 @@ class TableWriter(object):
 
         return header_sizes
 
+
     def get_hr(self, headers, header_sizes):
         n_bars = len(headers) + 1
         return "+" + ("-" * (sum(header_sizes) + n_bars - 2)) + "+"
@@ -108,6 +109,7 @@ class TableWriter(object):
         print_str += "\n"
 
         return print_str
+
 
     def get_row_str(self, row, headers, header_sizes, settings):
         row_values = []
